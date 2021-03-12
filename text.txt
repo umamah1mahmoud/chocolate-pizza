@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+
+nav img {
+    
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    
+}
+
+nav ul li{
+    display: inline;
+    float: right;
+    margin-top: 10px;
+    
+}
+
+main header h1{
+    clear: both;
+    font-size: 40px;
+    margin-left: 220px; margin-right: 220px;
+}
+
+main header h3{
+    font-size: 12px;
+    margin-left: 220px; margin-right: 220px;
+}
+
+main article{
+    font-size: 20px;
+    margin-left: 220px; margin-right: 220px;
+    
+}
+
+
+main article img { display: block; margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px; 
+
+}
+
+main article p{
+    margin-bottom: 200 px; margin-top: 50 px; padding: 30 px;
+}
+
+.Recipie {
+    margin-left: 320px; margin-right: 320px;
+    
+}
+
+.list1{
+    float: left;
+    background-image: url(https://github.com/LTUC/amman-201d18/blob/main/class-10/choco-pizza-lab/lab-assets/list-bg.png?raw=true);
+    background-repeat: no-repeat;
+    padding: 65px;
+    
+    
+}
+
+.list2{
+    float:right;
+    background-image: url(https://github.com/LTUC/amman-201d18/blob/main/class-10/choco-pizza-lab/lab-assets/list-bg.png?raw=true);
+    background-repeat: no-repeat;
+    padding: 65px;
+}
+
+.Writer {
+    clear: both;
+    margin-left: 220px; margin-right: 220px;
+
+
+}
+
+.Girlimage { 
+    float: left;
+}
+
+footer{
+    text-align: center;
+}
+
+footer img{
+    display: block; margin-left: auto;
+    margin-right: auto;
+}

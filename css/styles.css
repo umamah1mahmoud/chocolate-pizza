@@ -2,87 +2,153 @@
     box-sizing: border-box;
 }
 
-
-nav img {
-    
-    display: inline;
-    float: left;
-    margin-top: 10px;
-    
-}
-
-nav ul li{
+nav ul li {
     display: inline;
     float: right;
     margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.navLeft {
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 225px;
     
 }
 
-main header h1{
+hr {
+    background-image:url("../img/hr-img.png");
+    background-repeat: repeat;
+    width:70% ;
+    padding: 10px;
+    border: none;
+    margin-left: 220px;
+}
+
+section {
+    display: block;
+}
+
+main header h2{
     clear: both;
+    display: inline-block;
     font-size: 40px;
-    margin-left: 220px; margin-right: 220px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch:narrower ;
+    margin-left: 225px; margin-right: 600px;
+    padding-top: 50px;
 }
 
 main header h3{
     font-size: 12px;
-    margin-left: 220px; margin-right: 220px;
-}
-
-main article{
-    font-size: 20px;
-    margin-left: 220px; margin-right: 220px;
+    margin-left: 225px; margin-right: 225px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
     
 }
 
 
-main article img { display: block; margin-left: auto;
+
+.printImg{
+    display:block;
+    position:absolute;
+    top: 210px;
+    right: 10px;
+    float: right;
+    margin-right: 220px;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+.mainImg{
+    display: block; margin-left: auto;
+    margin-bottom: 20px;
     margin-right: auto;
     margin-top: 40px; 
-
 }
 
-main article p{
-    margin-bottom: 200 px; margin-top: 50 px; padding: 30 px;
+.paragraph{
+    margin-left: 225px; margin-right: 225px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(56, 55, 55);
 }
 
-.Recipie {
-    margin-left: 320px; margin-right: 320px;
-    
+.listImage{
+    margin-left: 225px; margin-right: 225px;
+    margin-bottom: 70px;
+    height: 220px;
+    background-image: url('/img/list-bg.png');
+    background-repeat: no-repeat;
+    padding: 35px;
+    font-size: 22px;
+    font-family: cursive;
+    color: rgb(85, 85, 85);
 }
+
 
 .list1{
+    list-style-type: none;
+    margin-left: 20px;
     float: left;
-    background-image: url(https://github.com/LTUC/amman-201d18/blob/main/class-10/choco-pizza-lab/lab-assets/list-bg.png?raw=true);
-    background-repeat: no-repeat;
-    padding: 65px;
-    
-    
 }
 
 .list2{
-    float:right;
-    background-image: url(https://github.com/LTUC/amman-201d18/blob/main/class-10/choco-pizza-lab/lab-assets/list-bg.png?raw=true);
-    background-repeat: no-repeat;
-    padding: 65px;
+    list-style-type: none;
+    margin-right: 20px;
+    float: right;
 }
 
-.Writer {
+.writer{
+    margin-top: 70px;
+    margin-left: 225px; margin-right: 225px;
+    margin-bottom: 100px;
     clear: both;
-    margin-left: 220px; margin-right: 220px;
+    display: block;
+}
 
+.writerImg{
+    float: left;
+    padding-right: 20px;
+}
+
+.writerName{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(85, 85, 85);
+}
+
+.writerDes{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(85, 85, 85);
 
 }
 
-.Girlimage { 
-    float: left;
+main section p{
+    position:absolute;
+    top: 1550px;
+    left: 960px;
+    float: right;
+    color:rgb(238, 238, 238);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: narrower;
+    font-weight: lighter;
+    background-color: rgb(175, 86, 64);
+    padding-top: 10px; padding-bottom: 10px; padding-right: 25px; padding-left: 25px;
 }
 
 footer{
-    text-align: center;
+    clear: both;
+    text-align: center; color: gray;
 }
 
 footer img{
+    padding-bottom: 20px;
     display: block; margin-left: auto;
     margin-right: auto;
 }
