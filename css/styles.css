@@ -82,7 +82,7 @@ main header h3{
     margin-left: 225px; margin-right: 225px;
     margin-bottom: 70px;
     height: 220px;
-    background-image: url('/img/list-bg.png');
+    background-image: url('./img/list-bg.png');
     background-repeat: no-repeat;
     padding: 35px;
     font-size: 22px;
